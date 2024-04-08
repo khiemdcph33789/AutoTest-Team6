@@ -17,6 +17,7 @@ public class PhieuGiamGiaService {
                 throw new IllegalArgumentException("ID bi trung");
             }
         }
+        //
         if (phieuGiamGia.getMaPhieu().isEmpty()) {
             throw new IllegalArgumentException("Ma phieu khong duoc de trong");
         } else if (phieuGiamGia.getNgaybatdau().compareTo(phieuGiamGia.getNgayketthuc()) > 0) {
