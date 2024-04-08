@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Libraries">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Libraries/TimingFramework-0.55.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/zxing-javase.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/itextpdf-5.5.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/jcalendar-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/core-3.4.2-20201107.150937-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/java-swing-drawer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/miglayout-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/webcam-capture-0.3.13-20200330.202351-7 - Copy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Libraries/sqljdbc_12.2/enu/mssql-jdbc-12.2.0.jre11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
