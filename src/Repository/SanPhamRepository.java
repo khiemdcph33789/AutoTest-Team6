@@ -7,11 +7,6 @@ package Repository;
 import Model.SanPham;
 import java.util.ArrayList;
 import java.sql.*;
-
-/**
- *
- * @author khiem
- */
 public class SanPhamRepository {
     private ArrayList<SanPham> list;
     Connection conn;

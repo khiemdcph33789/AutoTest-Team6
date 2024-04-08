@@ -15,10 +15,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class DBConnect{
-
-    public static String USER_NAME = "sa";
-    public static String PASSWORD_NAME = "admin";
-    public static String url = "jdbc:sqlserver://localhost:1433;databaseName=DuAn1;encrypt=true;trustServerCertificate=true;";
+    public static String USER = "sa";
+    public static String PASSWORD = "123";
+    public static String URL = "jdbc:sqlserver://localhost:1433;databaseName=DuAn1;encrypt=true;trustServerCertificate=true; ";
 
     static {
         try {
@@ -29,14 +28,21 @@ public class DBConnect{
     }
 
     public static Connection getConnection() {
-        Connection conn = null;
+        Connection cn = null;
         try {
-            conn = DriverManager.getConnection(url, USER_NAME, PASSWORD_NAME);
+            cn = DriverManager.getConnection(URL, USER, PASSWORD);
         } catch (SQLException ex) {
             Logger.getLogger(DBConnect.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return conn;
+        return cn;
     }
 
-
+    public static void main(String[] args) {
+        Connection cn = getConnection();
+        if (cn != null) {
+            System.out.println("Connect Success");
+        } else {
+            System.out.println("Connect Error");
+        }
+    }
 }

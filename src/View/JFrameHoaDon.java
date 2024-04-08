@@ -1005,7 +1005,7 @@ public class JFrameHoaDon extends javax.swing.JFrame {
         
         
         
-    }//GEN-LAST:event_btnThanhToanActionPerformed
+    }
 
     public void PrintHoaDonPDF(HoaDon hoadon){
         String nameKhachHang = khRepo.getNameKhachHang(hoadon.getKhach_hang_id());
